@@ -16,5 +16,39 @@ int main() {
 	else if (so == 8) { cout << "day la so tam\n";}
 	else if (so == 9) { cout << "day la so chin\n";}
 	else if (so == 10) { cout << "day la so muoi\n";}
-	return 0;
+	switch (so) {
+		case 0;
+			cout << "so khong\n";
+			break;
+		case 1;
+			cout << "so mot\n";
+			break;
+		case 2;
+			cout << "so hai\n";
+			break;
+		case 3;
+			cout << "so ba\n";
+			break;
+		case 4;
+			cout << "so bon\n";
+    		break;
+		case 5;
+			cout << "so nam\n";
+			break;
+		case 6;
+			cout << "so sau\n";
+			break;
+		case 7;
+			cout << "so bay\n";
+			break;
+		case 8;
+			cout << "so tam\n";
+			break;
+		case 9;
+			cout << "so chin\n";
+			break;
+		case 10;
+			cout << "so muoi\n";
+			break;
+	}
 }
