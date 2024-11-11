@@ -1,20 +1,20 @@
-// bai6_reupchuyensothanhchu.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
-
-int main()
-{
-    std::cout << "Hello World!\n";
+#include <cmath>
+using namespace std;
+int main() {
+	int so;
+	cout << "nhap so";
+	cin >> so;
+	if (so == 0) { cout << "day la so khong\n"; }
+	else if (so == 1) { cout << "day la so mot\n";}
+	else if (so == 2) { cout << "day la so hai\n";}
+	else if (so == 3) { cout << "day la so ba\n";}
+	else if (so == 4) { cout << "day la so bon\n";}
+	else if (so == 5) { cout << "day la so nam\n";}
+	else if (so == 6) { cout << "day la so sau\n";}
+	else if (so == 7) { cout << "day la so bay\n";}
+	else if (so == 8) { cout << "day la so tam\n";}
+	else if (so == 9) { cout << "day la so chin\n";}
+	else if (so == 10) { cout << "day la so muoi\n";}
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
